@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <img src="/img/Vector.svg" alt="Logo da pagina" />
+      </header>
+      <section id="container">
+        <form id="form" action="">
+          <div class="input-textArea">
+            <label for="">
+              <textarea
+                name="textarea"
+                rows="10"
+                required
+                cols="40"
+                id="textArea"
+                placeholder="Digite seu texto"
+              ></textarea>
+            </label>
+          </div>
+          <p>
+            <span
+              class="iconify"
+              data-icon="carbon:warning-filled"
+              data-width="24"
+              data-height="24"
+            ></span
+            >Apenas letras minúsculas e sem acento.
+          </p>
+          <div class="container-btn">
+            <button  type="submit" class="btn-1">Criptografar</button>
+            <button  type="submit" class="btn-2">Descriptografar</button>
+          </div>
+        </form>
+      </section>
+      <section class="text-decodificado">
+        <div class="Notext">
+          <img
+            src="/img/High quality products 1 1.svg"
+            alt="imagem de um garoto com uma lupa"
+          />
+          <h2>Nenhuma mensagem Encontrada</h2>
+          <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+        <div class="show">
+          <textarea class="text" rows="20" placeholder="Nenhuma Mensagem"></textarea>
+          <button class="btn-copy">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
